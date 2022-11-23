@@ -168,18 +168,16 @@ class Yolov7Publisher:
 if __name__ == "__main__":
     rospy.init_node("yolov7_node")
 
-    ns = rospy.get_name() + "/"
-
-    weights_path = rospy.get_param(ns + "weights_path")
-    classes_path = rospy.get_param(ns + "classes_path")
-    img_topic = rospy.get_param(ns + "img_topic")
-    out_topic = rospy.get_param(ns + "out_topic")
-    conf_thresh = rospy.get_param(ns + "conf_thresh")
-    iou_thresh = rospy.get_param(ns + "iou_thresh")
-    queue_size = rospy.get_param(ns + "queue_size")
-    img_size = rospy.get_param(ns + "img_size")
-    visualize = rospy.get_param(ns + "visualize")
-    device = rospy.get_param(ns + "device")
+    weights_path = rospy.get_param("~weights_path")
+    classes_path = rospy.get_param("~classes_path")
+    img_topic = rospy.get_param("~img_topic")
+    out_topic = rospy.get_param("~out_topic")
+    conf_thresh = rospy.get_param("~conf_thresh")
+    iou_thresh = rospy.get_param("~iou_thresh")
+    queue_size = rospy.get_param("~queue_size")
+    img_size = rospy.get_param("~img_size")
+    visualize = rospy.get_param("~visualize")
+    device = rospy.get_param("~device")
 
     # some sanity checks
     if not os.path.isfile(weights_path):
