@@ -1,10 +1,22 @@
-car
-bus
-person
-bike
-motorcycle
-traffic light
-truck
-person
-traffic sign
-traffic light
+large marker
+bowl
+wood block
+very large clamp
+pudding box
+sugar box
+cracker
+banana
+scissors
+power drill
+coffee can
+gelatin box
+potted meat
+mug
+mustard bottle
+scrub cleanser
+foam brick
+tuna fish can
+pitcher base
+tomato soup can
+large clamp
+
