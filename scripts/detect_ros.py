@@ -1,9 +1,9 @@
 #! /usr/bin/env python3
 
-from models.experimental import attempt_load
-from utils.general import non_max_suppression
-from utils.ros import create_detection_msg
-from visualizer import draw_detections
+from yolov7_ros.models.experimental import attempt_load
+from yolov7_ros.utils.general import non_max_suppression
+from yolov7_ros.utils.ros import create_detection_msg
+from yolov7_ros.visualizer import draw_detections
 
 import os
 from typing import Tuple, Union, List

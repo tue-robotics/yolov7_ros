@@ -1,4 +1,3 @@
-from . import deploy
 from . import models
 from . import scripts
 from . import utils
