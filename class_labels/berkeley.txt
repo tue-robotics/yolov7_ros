@@ -1,24 +1,24 @@
+banana 
+bowl 
+coffee can 
+pudding
+foam brick 
+jello 
+clamp
 cracker box
-very large clamp
-coffee can
-mug
-banana
-power drill
-potted meat
-gelatin box
-large marker
-pitcher base
-pudding box
-bowl
-large clamp
-tomato soup can
-sugar box
-scrub cleanser
-scissors
-tune fish can
-wood block
-mustard bottle
-foam brick
+mug 
+mustard
+pitcher 
+potted meat 
+power drill 
+marker
+scissors  
+bleach 
+sugar 
+tomato soup 
+tuna 
+clamp 
+wood block 
 
 
 
