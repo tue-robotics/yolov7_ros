@@ -1,5 +1,7 @@
 # ROS package for official YOLOv7
 
+[![CI](https://github.com/tue-robotics/yolov7_ros/actions/workflows/main.yml/badge.svg)](https://github.com/tue-robotics/yolov7_ros/actions/workflows/main.yml)
+
 ![YOLOv7 Berkeley DeepDrive](berkeley_example.png)
 
 This repo contains a ROS noetic package for the official YOLOv7. It wraps the 
