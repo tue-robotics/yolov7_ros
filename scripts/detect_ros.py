@@ -156,9 +156,9 @@ class Yolov7Publisher:
 
         # visualizing if required
         if self.visualization_publisher:
-            bboxes = [[int(x1), int(y1), int(x2), int(y2)]
+            bboxes = [[int(x1), int(y1), int(x2), int(y2)]          #list of boxes
                       for x1, y1, x2, y2 in detections[:, :4].tolist()]
-            classes = [int(c) for c in detections[:, 5].tolist()]
+            classes = [int(c) for c in detections[:, 5].tolist()]   # list of classes
             vis_img = draw_detections(np_img_orig, bboxes, classes,
                                       self.class_labels)
             vis_msg = self.bridge.cv2_to_imgmsg(vis_img)
